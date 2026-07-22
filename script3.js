@@ -4,11 +4,15 @@ let nomeDigitado = prompt("Digite o seu nome")
 
 let nomeInvertido = " "
 
-for(let i = nomeDigitado.length - 1; i >= 0; i--){
-    nomeInvertido += nomeDigitado[i]
+for(let i = i < nomeDigitado.length; i++){
+    if(i % 2 == 0){
+        nomeDigitado + nomeInvertido[i].toUpperCase();
+    }else{
+        nomeDigitado + nomeInvertido[i].toLowerCase();
+    }    
 }
-
-alert(`O nome ${nomeDigitado}, invertido fica${nomeInvertido}`)
+alert(`Nome original: ${nomeDigitado}`);
+alert(`Nome alternado: ${nomeAlternado}`);
 
 // const nome = "Arthur Pires"
 // const nomeSemEspaço = nome
