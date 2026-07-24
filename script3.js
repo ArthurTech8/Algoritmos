@@ -20,26 +20,26 @@
 //1050 * 10 = total
 // 1050 - parcela
 
-let palavra = prompt("Digite uma palavra: ");
-let vogais = "";
-let contador = 0
+// let palavra = prompt("Digite uma palavra: ");
+// let vogais = "";
+// let contador = 0
 
-let palavraInvertida= " ";
+// let palavraInvertida= " ";
 
-for(let i =0; i < palavra.length; i++){
-    let letra = palavra[i].toLowerCase();
+// for(let i =0; i < palavra.length; i++){
+//     let letra = palavra[i].toLowerCase();
     
-    if ("aeiou".includes(letra)){
-        vogais += letra + " ";
-        contador++
-    }
-}
-for(let j= palavra.length -1; j>= 0; j--){
-    palavraInvertida += palavra[j].toLowerCase();
-}
-alert(`A palavra possui ${palavra.length} letras`)
-alert(`A palavra ${palavra} possui ${contador} vogais, sendo as vogais ${vogais}`)
-alert(`E o inverso desta palavra é ${palavraInvertida}`)
+//     if ("aeiou".includes(letra)){
+//         vogais += letra + " ";
+//         contador++
+//     }
+// }
+// for(let j= palavra.length -1; j>= 0; j--){
+//     palavraInvertida += palavra[j].toLowerCase();
+// }
+// alert(`A palavra possui ${palavra.length} letras`)
+// alert(`A palavra ${palavra} possui ${contador} vogais, sendo as vogais ${vogais}`)
+// alert(`E o inverso desta palavra é ${palavraInvertida}`)
 
 
 
